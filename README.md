@@ -6,6 +6,10 @@ This program sends temperature readings to [Machine Telemetry Lab](https://githu
 Sample readings or Linux sensor file -> Edge publisher -> EMQX -> .NET services
 ```
 
+## For juniors and interns
+
+The [illustrated beginner's guide (PDF)](docs/machine-telemetry-beginners-guide.pdf) explains MQTT and shows what happens after this program sends a reading.
+
 ## Try it without hardware
 
 Start the backend with Docker Compose. From this repository, run with the .NET 10 SDK installed.
